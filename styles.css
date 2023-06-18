@@ -1,0 +1,42 @@
+html,
+body {
+  text-align: center;
+  background-color: hsl(220, 15%, 55%);
+  font-family: "Outfit", sans-serif;
+  font-size: 15px;
+  color: hsl(210, 2%, 45%);
+}
+
+h2 {
+  font-weight: 700;
+  font-size: 20px;
+  color: hsl(15, 10%, 8%);
+  margin: 15px 0;
+}
+
+p {
+  margin: 0 0 15px 0;
+}
+
+.main-component-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 250px;
+  margin-right: auto;
+  margin-left: auto;
+  margin-top: 100px;
+  background-color: hsl(0, 0%, 100%);
+  padding: 15px;
+  border-radius: 10px;
+}
+
+.qr-container {
+  background-image: url("./images/image-qr-code.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 250px;
+  height: 250px;
+  border-radius: 10px;
+}
