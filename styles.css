@@ -32,11 +32,28 @@ p {
 }
 
 .qr-container {
-  background-image: url("./images/image-qr-code.png");
-  background-size: contain;
-  background-repeat: no-repeat;
-  background-position: center;
   width: 250px;
   height: 250px;
+}
+
+img {
+  width: inherit;
+  height: inherit;
   border-radius: 10px;
+}
+
+.attribution {
+  color: hsl(15, 10%, 8%);
+  margin: 15px 0;
+}
+
+@media (max-width: 375px) {
+  .main-component-container {
+    width: auto;
+    margin: 18px;
+  }
+  .qr-container {
+    width: auto;
+    margin: 18px;
+  }
 }
